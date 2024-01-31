@@ -7,9 +7,7 @@
 # based on:
 # https://github.com/FacePerceiver/facer/blob/main/facer/face_parsing/farl.py
 import functools
-import logging.config
-logging.config.fileConfig("config/logging.conf")
-logger = logging.getLogger('sdk')
+import logging as logger
 
 import torch
 import torch.nn.functional as F

@@ -3,9 +3,7 @@
 @date: 20201019
 @contact: jun21wangustc@gmail.com 
 """
-import logging.config
-logging.config.fileConfig("config/logging.conf")
-logger = logging.getLogger('sdk')
+import logging as logger
 
 import torch
 
